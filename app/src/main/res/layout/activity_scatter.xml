@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_marginBottom="10dp"
+             android:layout_marginRight="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/menu"
+        style="@style/MenuStyle"
+        android:background="@mipmap/ic_launcher"/>
+
+    <Button
+        android:id="@+id/item1"
+        style="@style/MenuItemStyle"
+        android:background="@mipmap/icon_login_qq"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/item2"
+        style="@style/MenuItemStyle"
+        android:background="@mipmap/icon_login_facebook"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/item3"
+        style="@style/MenuItemStyle"
+        android:background="@mipmap/icon_login_wechat_selected"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/item4"
+        style="@style/MenuItemStyle"
+        android:background="@mipmap/icon_login_sina_selected"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/item5"
+        style="@style/MenuItemStyle"
+        android:background="@mipmap/icon_login_facebook"
+        android:visibility="gone"/>
+
+
+</FrameLayout>

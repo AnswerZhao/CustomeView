@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="君不见黄河之水天上来，奔流到海不复还；君不见高堂明镜悲白发，朝如青丝暮如雪。
+        君不见黄河之水天上来，奔流到海不复还；君不见高堂明镜悲白发，朝如青丝暮如雪。
+        君不见黄河之水天上来，奔流到海不复还；君不见高堂明镜悲白发，朝如青丝暮如雪。
+        君不见黄河之水天上来，奔流到海不复还；君不见高堂明镜悲白发，朝如青丝暮如雪。
+        君不见黄河之水天上来，奔流到海不复还；君不见高堂明镜悲白发，朝如青丝暮如雪。
+        君不见黄河之水天上来，奔流到海不复还；君不见高堂明镜悲白发，朝如青丝暮如雪。
+        君不见黄河之水天上来，奔流到海不复还；君不见高堂明镜悲白发，朝如青丝暮如雪。
+        君不见黄河之水天上来，奔流到海不复还；君不见高堂明镜悲白发，朝如青丝暮如雪。
+        "/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="16sp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:hint="please input the words..."
+        android:background="@drawable/bg_et"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_launcher"/>
+
+</LinearLayout>

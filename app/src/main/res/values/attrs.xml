@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomeTextView">
+        <attr name="zText" format="string"/>
+        <attr name="zTextSize" format="dimension"/>
+        <attr name="zTextColor" format="color"/>
+
+    </declare-styleable>
+
+
+    <declare-styleable name="Dashboard">
+
+        <attr name="cx" format="dimension"/>
+        <attr name="cy" format="dimension"/>
+        <attr name="radius" format="dimension"/>
+
+
+    </declare-styleable>
+</resources>

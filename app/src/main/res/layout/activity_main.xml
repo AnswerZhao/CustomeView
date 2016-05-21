@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="z.wd.customeview.MainActivity">
+
+    <Button
+        android:id="@+id/btn"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:text="reset"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+
+
+    <z.wd.customeview.PaintView
+        android:id="@+id/notepad"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        />
+
+    <z.wd.customeview.CustomeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:zText="9751"
+        app:zTextColor="@color/colorAccent"
+        app:zTextSize="30sp"/>
+
+
+    <z.wd.customeview.dashboard.DashboardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cx="100dp"
+        app:cy="100dp"
+        app:radius="100dp"/>
+
+
+</LinearLayout>
